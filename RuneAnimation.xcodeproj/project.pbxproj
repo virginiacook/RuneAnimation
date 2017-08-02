@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB7936F41F3299450033F260 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7936F31F3299450033F260 /* AppDelegate.swift */; };
+		CB7936F61F3299450033F260 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7936F51F3299450033F260 /* ViewController.swift */; };
+		CB7936F91F3299450033F260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7936F71F3299450033F260 /* Main.storyboard */; };
+		CB7936FC1F3299450033F260 /* RuneAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB7936FA1F3299450033F260 /* RuneAnimation.xcdatamodeld */; };
+		CB7936FE1F3299450033F260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7936FD1F3299450033F260 /* Assets.xcassets */; };
+		CB7937011F3299450033F260 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7936FF1F3299450033F260 /* LaunchScreen.storyboard */; };
+		CB79370C1F3299450033F260 /* RuneAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB79370B1F3299450033F260 /* RuneAnimationTests.swift */; };
+		CB7937171F3299450033F260 /* RuneAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7937161F3299450033F260 /* RuneAnimationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB7937081F3299450033F260 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB7936E81F3299450033F260 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB7936EF1F3299450033F260;
+			remoteInfo = RuneAnimation;
+		};
+		CB7937131F3299450033F260 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB7936E81F3299450033F260 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB7936EF1F3299450033F260;
+			remoteInfo = RuneAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB7936F01F3299450033F260 /* RuneAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuneAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7936F31F3299450033F260 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB7936F51F3299450033F260 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB7936F81F3299450033F260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB7936FB1F3299450033F260 /* RuneAnimation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RuneAnimation.xcdatamodel; sourceTree = "<group>"; };
+		CB7936FD1F3299450033F260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB7937001F3299450033F260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB7937021F3299450033F260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB7937071F3299450033F260 /* RuneAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuneAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB79370B1F3299450033F260 /* RuneAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneAnimationTests.swift; sourceTree = "<group>"; };
+		CB79370D1F3299450033F260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB7937121F3299450033F260 /* RuneAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuneAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7937161F3299450033F260 /* RuneAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneAnimationUITests.swift; sourceTree = "<group>"; };
+		CB7937181F3299450033F260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB7936ED1F3299450033F260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7937041F3299450033F260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB79370F1F3299450033F260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB7936E71F3299450033F260 = {
+			isa = PBXGroup;
+			children = (
+				CB7936F21F3299450033F260 /* RuneAnimation */,
+				CB79370A1F3299450033F260 /* RuneAnimationTests */,
+				CB7937151F3299450033F260 /* RuneAnimationUITests */,
+				CB7936F11F3299450033F260 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB7936F11F3299450033F260 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB7936F01F3299450033F260 /* RuneAnimation.app */,
+				CB7937071F3299450033F260 /* RuneAnimationTests.xctest */,
+				CB7937121F3299450033F260 /* RuneAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB7936F21F3299450033F260 /* RuneAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CB7936F31F3299450033F260 /* AppDelegate.swift */,
+				CB7936F51F3299450033F260 /* ViewController.swift */,
+				CB7936F71F3299450033F260 /* Main.storyboard */,
+				CB7936FD1F3299450033F260 /* Assets.xcassets */,
+				CB7936FF1F3299450033F260 /* LaunchScreen.storyboard */,
+				CB7937021F3299450033F260 /* Info.plist */,
+				CB7936FA1F3299450033F260 /* RuneAnimation.xcdatamodeld */,
+			);
+			path = RuneAnimation;
+			sourceTree = "<group>";
+		};
+		CB79370A1F3299450033F260 /* RuneAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB79370B1F3299450033F260 /* RuneAnimationTests.swift */,
+				CB79370D1F3299450033F260 /* Info.plist */,
+			);
+			path = RuneAnimationTests;
+			sourceTree = "<group>";
+		};
+		CB7937151F3299450033F260 /* RuneAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB7937161F3299450033F260 /* RuneAnimationUITests.swift */,
+				CB7937181F3299450033F260 /* Info.plist */,
+			);
+			path = RuneAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB7936EF1F3299450033F260 /* RuneAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB79371B1F3299450033F260 /* Build configuration list for PBXNativeTarget "RuneAnimation" */;
+			buildPhases = (
+				CB7936EC1F3299450033F260 /* Sources */,
+				CB7936ED1F3299450033F260 /* Frameworks */,
+				CB7936EE1F3299450033F260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RuneAnimation;
+			productName = RuneAnimation;
+			productReference = CB7936F01F3299450033F260 /* RuneAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB7937061F3299450033F260 /* RuneAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB79371E1F3299450033F260 /* Build configuration list for PBXNativeTarget "RuneAnimationTests" */;
+			buildPhases = (
+				CB7937031F3299450033F260 /* Sources */,
+				CB7937041F3299450033F260 /* Frameworks */,
+				CB7937051F3299450033F260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB7937091F3299450033F260 /* PBXTargetDependency */,
+			);
+			name = RuneAnimationTests;
+			productName = RuneAnimationTests;
+			productReference = CB7937071F3299450033F260 /* RuneAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB7937111F3299450033F260 /* RuneAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB7937211F3299450033F260 /* Build configuration list for PBXNativeTarget "RuneAnimationUITests" */;
+			buildPhases = (
+				CB79370E1F3299450033F260 /* Sources */,
+				CB79370F1F3299450033F260 /* Frameworks */,
+				CB7937101F3299450033F260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB7937141F3299450033F260 /* PBXTargetDependency */,
+			);
+			name = RuneAnimationUITests;
+			productName = RuneAnimationUITests;
+			productReference = CB7937121F3299450033F260 /* RuneAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB7936E81F3299450033F260 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = VirgLabs;
+				TargetAttributes = {
+					CB7936EF1F3299450033F260 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CB7937061F3299450033F260 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB7936EF1F3299450033F260;
+					};
+					CB7937111F3299450033F260 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB7936EF1F3299450033F260;
+					};
+				};
+			};
+			buildConfigurationList = CB7936EB1F3299450033F260 /* Build configuration list for PBXProject "RuneAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB7936E71F3299450033F260;
+			productRefGroup = CB7936F11F3299450033F260 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB7936EF1F3299450033F260 /* RuneAnimation */,
+				CB7937061F3299450033F260 /* RuneAnimationTests */,
+				CB7937111F3299450033F260 /* RuneAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB7936EE1F3299450033F260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7937011F3299450033F260 /* LaunchScreen.storyboard in Resources */,
+				CB7936FE1F3299450033F260 /* Assets.xcassets in Resources */,
+				CB7936F91F3299450033F260 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7937051F3299450033F260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7937101F3299450033F260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB7936EC1F3299450033F260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7936F61F3299450033F260 /* ViewController.swift in Sources */,
+				CB7936FC1F3299450033F260 /* RuneAnimation.xcdatamodeld in Sources */,
+				CB7936F41F3299450033F260 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7937031F3299450033F260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB79370C1F3299450033F260 /* RuneAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB79370E1F3299450033F260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7937171F3299450033F260 /* RuneAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB7937091F3299450033F260 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB7936EF1F3299450033F260 /* RuneAnimation */;
+			targetProxy = CB7937081F3299450033F260 /* PBXContainerItemProxy */;
+		};
+		CB7937141F3299450033F260 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB7936EF1F3299450033F260 /* RuneAnimation */;
+			targetProxy = CB7937131F3299450033F260 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB7936F71F3299450033F260 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB7936F81F3299450033F260 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB7936FF1F3299450033F260 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB7937001F3299450033F260 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB7937191F3299450033F260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB79371A1F3299450033F260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB79371C1F3299450033F260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RuneAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = virglabs.RuneAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CB79371D1F3299450033F260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RuneAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = virglabs.RuneAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CB79371F1F3299450033F260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RuneAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = virglabs.RuneAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuneAnimation.app/RuneAnimation";
+			};
+			name = Debug;
+		};
+		CB7937201F3299450033F260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RuneAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = virglabs.RuneAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuneAnimation.app/RuneAnimation";
+			};
+			name = Release;
+		};
+		CB7937221F3299450033F260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RuneAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = virglabs.RuneAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RuneAnimation;
+			};
+			name = Debug;
+		};
+		CB7937231F3299450033F260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RuneAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = virglabs.RuneAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RuneAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB7936EB1F3299450033F260 /* Build configuration list for PBXProject "RuneAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7937191F3299450033F260 /* Debug */,
+				CB79371A1F3299450033F260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB79371B1F3299450033F260 /* Build configuration list for PBXNativeTarget "RuneAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB79371C1F3299450033F260 /* Debug */,
+				CB79371D1F3299450033F260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB79371E1F3299450033F260 /* Build configuration list for PBXNativeTarget "RuneAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB79371F1F3299450033F260 /* Debug */,
+				CB7937201F3299450033F260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB7937211F3299450033F260 /* Build configuration list for PBXNativeTarget "RuneAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7937221F3299450033F260 /* Debug */,
+				CB7937231F3299450033F260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB7936FA1F3299450033F260 /* RuneAnimation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB7936FB1F3299450033F260 /* RuneAnimation.xcdatamodel */,
+			);
+			currentVersion = CB7936FB1F3299450033F260 /* RuneAnimation.xcdatamodel */;
+			path = RuneAnimation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CB7936E81F3299450033F260 /* Project object */;
+}
